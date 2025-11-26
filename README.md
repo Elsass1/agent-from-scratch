@@ -171,6 +171,3 @@ This is an educational project from the Frontend Masters course. Feel free to ex
 
 This project is provided for educational purposes as part of the Frontend Masters "Build an AI Agent from Scratch" course. All rights reserved.
 
-```
-
-```
