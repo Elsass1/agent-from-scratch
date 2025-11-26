@@ -14,6 +14,7 @@ export const runLLM = async ({
   const response = await openai.chat.completions.create({
     model: 'gpt-4o-mini',
     temperature: 0.1,
+    // never save the system prompt to the db
     messages: [{ role: 'system', content: systemPrompt }, ...messages],
     tools: formattedTools,
     tool_choice: 'auto',
