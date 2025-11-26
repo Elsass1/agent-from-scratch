@@ -2,16 +2,67 @@
   "messages": [
     {
       "role": "user",
-      "content": "what is the time and date and timezone",
-      "id": "02209b1a-c3e2-4cc1-afa7-6a096d0a00d8",
-      "createdAt": "2024-11-05T21:40:03.471Z"
+      "content": "create an image from a dad joke",
+      "id": "dbeed120-2fad-49b8-95fb-276d88a7392c",
+      "createdAt": "2025-11-26T09:51:31.798Z"
     },
     {
       "role": "assistant",
-      "content": "I don't have real-time capabilities to provide the current time and date. However, you can easily check the time and date on your device or by searching online. If you let me know your location or timezone, I can help you understand how to find that information!",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_yqqcwwPtQAYL2nTfupbJgkrm",
+          "type": "function",
+          "function": {
+            "name": "dad_joke",
+            "arguments": "{}"
+          }
+        }
+      ],
       "refusal": null,
-      "id": "9de719f7-1be8-4bf8-ad49-b46769ff721e",
-      "createdAt": "2024-11-05T21:40:04.529Z"
+      "annotations": [],
+      "id": "9ce5de9e-01a2-496e-a516-208841d3b151",
+      "createdAt": "2025-11-26T09:51:33.025Z"
+    },
+    {
+      "role": "tool",
+      "content": "What concert costs only 45 cents? 50 cent featuring Nickelback.",
+      "tool_call_id": "call_yqqcwwPtQAYL2nTfupbJgkrm",
+      "id": "83cbbc16-a435-4b06-9295-56e2319c5710",
+      "createdAt": "2025-11-26T09:51:33.208Z"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_45lnCQpBrlxeSYWqwvHyXXWw",
+          "type": "function",
+          "function": {
+            "name": "generate_image",
+            "arguments": "{\"prompt\":\"A humorous scene depicting a concert with a sign that reads '45 Cent Concert'. On stage, a generic character resembling a rapper is performing, while in the background, a generic rock band is playing. The audience is laughing and enjoying the show, with some holding up signs that say 'We love 50 Cent!' and 'Nickelback Rocks!'. The atmosphere is lively and fun, capturing the essence of a lighthearted music event.\"}"
+          }
+        }
+      ],
+      "refusal": null,
+      "annotations": [],
+      "id": "927c8c4c-d44c-4a31-899a-f00d5679eb53",
+      "createdAt": "2025-11-26T09:51:35.738Z"
+    },
+    {
+      "role": "tool",
+      "content": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-EkTm7Ei6fin0C2CuDdLujFJr/user-mfsjwnzkTyku9emWn8KzobTV/img-ke0Bv6IdKC8TpXIF73d4EIaK.png?st=2025-11-26T08%3A51%3A57Z&se=2025-11-26T10%3A51%3A57Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=77e5a8ec-6bd1-4477-8afc-16703a64f029&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-11-26T09%3A51%3A57Z&ske=2025-11-27T09%3A51%3A57Z&sks=b&skv=2024-08-04&sig=4i8ZW9MBi9lmnAgEw9%2B8ClLJRhYVAiSL/CavALGa1UI%3D",
+      "tool_call_id": "call_45lnCQpBrlxeSYWqwvHyXXWw",
+      "id": "ed72b77a-a397-4208-b95f-cac466a072f1",
+      "createdAt": "2025-11-26T09:51:57.643Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Here's the image inspired by the dad joke about the concert featuring \"50 Cent\" and \"Nickelback.\" You can view it by clicking the link below:\n\n![Dad Joke Concert Image](https://oaidalleapiprodscus.blob.core.windows.net/private/org-EkTm7Ei6fin0C2CuDdLujFJr/user-mfsjwnzkTyku9emWn8KzobTV/img-ke0Bv6IdKC8TpXIF73d4EIaK.png?st=2025-11-26T08%3A51%3A57Z&se=2025-11-26T10%3A51%3A57Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=77e5a8ec-6bd1-4477-8afc-16703a64f029&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-11-26T09%3A51%3A57Z&ske=2025-11-27T09%3A51%3A57Z&sks=b&skv=2024-08-04&sig=4i8ZW9MBi9lmnAgEw9%2B8ClLJRhYVAiSL/CavALGa1UI%3D)\n\nEnjoy!",
+      "refusal": null,
+      "annotations": [],
+      "id": "faec0362-61f8-4e23-946f-1ca7064bca7e",
+      "createdAt": "2025-11-26T09:52:04.490Z"
     }
   ]
 }
