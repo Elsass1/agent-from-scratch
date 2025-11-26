@@ -104,9 +104,10 @@ generate_image
 [ASSISTANT]
 Here's a humorous image based on the dad joke and NBA elements! The scene features a cartoon shark in a basketball jersey, sitting on a bench looking confused, surrounded by colorful clowns in basketball uniforms juggling basketballs. One clown is saying, "Why don't sharks eat clowns? Because they taste funny!" In the background, you can see a basketball court with players in action.
 
-![Generated Image](public/image_joke.png)
-
 ```
+
+**Generated Image:**
+![AI-generated humorous image combining dad joke and NBA themes](public/image_joke.png)
 
 ## Project Structure
 
