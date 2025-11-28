@@ -2,6 +2,7 @@
 
 # Build an AI Agent from Scratch Workshop
 
+**Course by Scott Moss**
 - Watch the workshop on [Frontend Masters](https://frontendmasters.com/courses/ai-agents/).
 - View the [course notes](https://clumsy-humor-894.notion.site/Agent-from-scratch-13554fed51a380749554c44aa8989406?pvs=4)
 
@@ -11,8 +12,7 @@ This repo requires **Node.js version 20+** or **bun v1.0.20**.
 
 The `main` branch contains the final application. You will also need an [API Key from OpenAI](https://platform.openai.com/settings/organization/api-keys).
 
-# AI Agent from Scratch by Scott Moss
-
+# AI Agent from Scratch
 This project is built as part of the **"Build an AI Agent from Scratch"** course by [Scott Moss](https://frontendmasters.com/teachers/scott-moss/) on [Frontend Masters](https://frontendmasters.com/).
 
 An AI-powered assistant called "Troll" that can perform various tasks using OpenAI's GPT model and custom tools. The agent has memory capabilities and can execute tools to fetch dad jokes, get Reddit posts, and generate images using DALL-E 3.
