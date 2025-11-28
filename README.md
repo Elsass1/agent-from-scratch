@@ -9,9 +9,9 @@
 
 This repo requires **Node.js version 20+** or **bun v1.0.20**.
 
-The `main` branch contains the final application. To code along with the workshop, checkout the `step/1` branch. You will also need an [API Key from OpenAI](https://platform.openai.com/settings/organization/api-keys).
+The `main` branch contains the final application. You will also need an [API Key from OpenAI](https://platform.openai.com/settings/organization/api-keys).
 
-# AI Agent from Scratch
+# AI Agent from Scratch by Scott Moss
 
 This project is built as part of the **"Build an AI Agent from Scratch"** course by [Scott Moss](https://frontendmasters.com/teachers/scott-moss/) on [Frontend Masters](https://frontendmasters.com/).
 
@@ -169,5 +169,5 @@ This is an educational project from the Frontend Masters course. Feel free to ex
 
 ## License
 
-This project is provided for educational purposes as part of the Frontend Masters "Build an AI Agent from Scratch" course. All rights reserved.
+This project is provided for educational purposes as part of the Frontend Masters "Build an AI Agent from Scratch" course by Scott Moss. All rights reserved.
 
